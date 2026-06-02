@@ -1,34 +1,30 @@
-# Обзор проекта AI-SaaS
+# AI-SaaS Project
 
-Цели проекта:
-* Разработка облачного решения на основе искусственного интеллекта
-* Создание модуля для управления данными
-* Интеграция с сторонними сервисами
+## Overview
+AI-SaaS is a project that provides a scalable and efficient solution for AI-powered software as a service. The project aims to deliver a robust and user-friendly platform for various AI-driven applications.
 
-Архитектура проекта:
-* Микросервисная архитектура
-* Использование контейнеров Docker
-* Оркестрация с помощью Kubernetes
+## Goals
+- Develop a scalable AI-SaaS platform
+- Provide efficient and reliable service
+- Deliver a user-friendly interface for various AI-driven applications
 
-API-эндпоинты:
-* /api/data - получение данных
-* /api/upload - загрузка данных
-* /api/analyze - анализ данных
+## Architecture
+The project follows a microservices architecture, with separate services for AI processing, data storage, and user interface.
 
-UI-потоки:
-* Регистрация пользователя
-* Выбор модуля
-* Загрузка данных
-* Анализ данных
+## API Endpoints
+The API endpoints are documented in the [API documentation](docs/api.md).
 
-Тест-планы:
-* UI-тестирование
-* API-тестирование
-* Интеграционное тестирование
+## UI Flows
+The UI flows are documented in the [UI documentation](docs/ui.md).
 
-Инструкции по запуску:
-* Клонирование репозитория
-* Установка зависимостей
-* Запуск приложения
+## Test Plans
+The test plans are documented in the [Test Plan documentation](docs/test-plan.md).
 
-Ссылка на репозиторий: https://github.com/nikidav9/ai-saas
+## Instructions for Launching
+To launch the project, follow these steps:
+1. Clone the repository: https://github.com/nikidav9/ai-saas
+2. Install the required dependencies
+3. Start the services
+
+## Repository
+https://github.com/nikidav9/ai-saas
