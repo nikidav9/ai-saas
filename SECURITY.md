@@ -1,5 +1,1 @@
-## Security Policy
-
-For vulnerability reports and security inquiries, please refer to the repository:
-
-https://github.com/nikidav9/ai-saas
+IyBTZWN1cml0eSBQb2xpY3kKClRoaXMgZG9jdW1lbnQgcHJvdmlkZXMgdGhlIGJhc2ljIHNlbGYtY29uZGl0aW9ucyBmb3IgdGhlIGFwcC4KClJlc291cmNlOiBodHRwczovL2dpdGh1Yi5jb20vbmlla2lkYXY5L2FpLXNhaXMK
