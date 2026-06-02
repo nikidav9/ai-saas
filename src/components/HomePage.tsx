@@ -1,11 +1,10 @@
 import React from 'react';
-import './HomePage.css';
 
 const HomePage: React.FC = () => (
-  <section className="home">
+  <section style={{ padding: '2rem', textAlign: 'center' }}>
     <h1>Добро пожаловать в AI SaaS</h1>
-    <p>Инновационные решения искусственного интеллекта для вашего бизнеса.</p>
-    <a href="https://github.com/nikidav9/ai-saas" target="_blank" rel="noopener noreferrer" className="repo-link">
+    <p>Ваш новый AI‑инструмент для роста бизнеса.</p>
+    <a href="https://github.com/nikidav9/ai-saas" target="_blank" rel="noopener noreferrer">
       Перейти к репозиторию
     </a>
   </section>
