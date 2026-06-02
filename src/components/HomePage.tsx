@@ -3,9 +3,11 @@ import './HomePage.css';
 
 const HomePage: React.FC = () => (
   <section className="home">
-    <h1 className="home__title">Добро пожаловать в AI SaaS</h1>
-    <p className="home__subtitle">Инновационные решения на базе искусственного интеллекта для вашего бизнеса.</p>
-    <button className="home__cta">Начать сейчас</button>
+    <h1>Welcome to AI SaaS</h1>
+    <p>Your AI-powered platform for smarter business.</p>
+    <a href="https://github.com/nikidav9/ai-saas" target="_blank" rel="noopener noreferrer" className="repo-link">
+      View Repository
+    </a>
   </section>
 );
 
