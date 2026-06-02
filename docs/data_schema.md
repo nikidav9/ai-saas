@@ -1,17 +1,1 @@
-IyBEYXRhIFNjaGVtYQp
-
-## Пользователи
-
-- `user_id` (UUID) – уникальный идентификатор
-- `email` (string) – email пользователя
-- `created_at` (timestamp) – дата регистрации
-
-## Заказы
-
-- `order_id` (UUID)
-- `user_id` (UUID) – ссылка на Users
-- `amount` (decimal)
-- `status` (enum: pending, completed, cancelled)
-- `created_at` (timestamp)
-
-Ссылка на репозиторий: https://github.com/nikidav9/ai-saas
+IyBEYXRhIFNjaGVtYXMKCkNvbnRlbnQgZGVzY3JpcHRpb24gb2YgdGhlIGRhdGEgc2NoZW1hcy4KCi0gVXNlciBJRCAtIHVuaXF1ZSBpZGVudGlmaWVyIG9mIHRoZSB1c2VyLgogLSBPcmRlciBJRCAtIHVuaXF1ZSBpZGVudGlmaWVyIG9mIG9yZGVyLgogLSBQcm9kdWN0IElEIC0gdW5pcXVlIGlkZW50aWZpZXIgb2YgYSBwcm9kdWN0LgoKW0kaW5mb3JtYXRpb24gYWJvdXQgcmVwb3NpdG9yeSBpbiBiYXRlXSBodHRwczovL2dpdGh1Yi5jb20v bmlraWRhdjkvYWktc2FhcyBdCg==
