@@ -1,1 +1,0 @@
-export const getGreeting = () => 'Hello from AI SaaS';
