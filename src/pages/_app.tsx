@@ -1,1 +1,14 @@
-ZGVmYXVsdCBmdW5jdGlvbiBBcHAoeyBjb21wb25lbnRzLCBwYWdlUHJvcHMgfSBmcm9tICcuL15fYXBwJykge1xuICByZXR1cm4gKHxuCiAgPHNTZXNzaW9uUHJvdmlkZXIgc2Vzc2lvbk5hbWU9XCJzZXNzaW9nXCI+XG4gICAgPHR5cGU9IlRheEZlYXR1cmUiPntjb21wb25lbnR9PC90eXBlPlxuICB9KVxuKTsKfQo=
+import '../styles/tokens.css';
+import { SessionProvider } from 'next-auth/react';
+import { ThemeProvider } from 'next-themes';
+import type { AppProps } from 'next/app';
+
+export default function App({ Component, pageProps: { session, ...pageProps } }: AppProps) {
+  return (
+    <SessionProvider session={session}>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </SessionProvider>
+  );
+}
