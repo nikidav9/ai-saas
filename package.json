@@ -1,1 +1,38 @@
-ewogICJuYW1lIjogImFpLXNhYXMiLAogICJ2ZXJzaW9uIjogIjAuMS4wIiwKICAic2NyaXB0cyI6IHsKICAgICJzdGFydCI6ICJuZXh0IGVuZyIsCiAgICAibGludGVyIjogIm5leHQgcnVuIGluZGV4IiwKICAgICJidWlsZCI6ICJuZXh0IGJ1aWxkIiwKICAgICJkZXZlbG9wIjogIm5leHQgdGVzdCIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAibmV4dCI6ICI4LjAiLAogICAgIm5leHR3ZWIiOiAiMTIuMC4wIiwKICAgICJwcnlzc2l0IjogIjQuNC4xIiwKICAgICJ0eXBlcnMiOiAiNC4wLjAiLAogICAgImRvY3R1bWVyIjogIjEuOS4wIiwKICAgICJwYXN0ZWwiOiAiMjAuMS4wIgogIH0KfQ==
+{
+  "name": "ai-saas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "openai": "^4.52.0",
+    "stripe": "^16.2.0",
+    "next-auth": "^5.0.0-beta.20",
+    "@prisma/client": "^5.17.0",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.414.0",
+    "tailwind-merge": "^2.4.0",
+    "axios": "^1.7.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.7",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "prisma": "^5.17.0"
+  }
+}
