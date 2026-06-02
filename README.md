@@ -1,30 +1,8 @@
-# AI-SaaS Project
+IyBBSS1TYWFTIC0gSW50ZWxsZWdlbjogSW5zdGFsbGF0aW9uLCBQcm9kdWN0IE9mZmVyCi0tLS0K
+CkNvbnRleHQgOiBUaGlzIHByb2plY3QgYnVpbGQgYW4gQUktYW5kIHVuaXZlcnNpdHkgc2Vydmlj
+ZSBmb3IgdXNlcnMgYW5kIGRlZXJzIGVsZW1lbnRzIHRvIHRlbGVwaG9yc25hdCBhdXRvLW5hdHVy
+byBlbmNlcHRpb24gYW5kIGluaWNhdGlvbmFsIGhhc3Rlcy4KCkFpbSBQdWJkb24KLSBVc2Ugc3Rh
+bmRhcmQgd2ViIGZyYW1ld29yayB0byBleHBsb3JlIHRvcGljIGFjY291bnRzLCBtYW5hZ2UgdWRh
+dGVzLCBhbmQgZGV2ZWxvcCBzY2FuIGJlIG5ld3NsaXRlZCByYW5nZSBpZiBwdWJsaXQgc2xvcC4K
 
-## Overview
-AI-SaaS is a project that provides a scalable and efficient solution for AI-powered software as a service. The project aims to deliver a robust and user-friendly platform for various AI-driven applications.
-
-## Goals
-- Develop a scalable AI-SaaS platform
-- Provide efficient and reliable service
-- Deliver a user-friendly interface for various AI-driven applications
-
-## Architecture
-The project follows a microservices architecture, with separate services for AI processing, data storage, and user interface.
-
-## API Endpoints
-The API endpoints are documented in the [API documentation](docs/api.md).
-
-## UI Flows
-The UI flows are documented in the [UI documentation](docs/ui.md).
-
-## Test Plans
-The test plans are documented in the [Test Plan documentation](docs/test-plan.md).
-
-## Instructions for Launching
-To launch the project, follow these steps:
-1. Clone the repository: https://github.com/nikidav9/ai-saas
-2. Install the required dependencies
-3. Start the services
-
-## Repository
-https://github.com/nikidav9/ai-saas
+Q2xvc2Ugb3V0IHRvIGZpbmQgK2hvbmUsIEkgZXhlY3V0ZQ==
