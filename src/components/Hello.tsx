@@ -1,1 +1,8 @@
-aW1wb3J0IFxudWxsYSwgIHJlYWN0IGZyb20gJ3JlYWN0JztcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlbGxvKCkge1xuICByZXR1cm4gPHVsPiA8bGk+SGVsbG8gYWkgU2FhczwvbGk+PC91bD5cbl07XG59
+import React from 'react';
+import { getGreeting } from '../utils/greeting';
+
+const Hello: React.FC = () => (
+  <div className="p-4 text-center text-xl font-bold">{getGreeting()}</div>
+);
+
+export default Hello;
