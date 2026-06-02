@@ -1,14 +1,1 @@
-import React from 'react';
-import './HomePage.css';
-
-const HomePage: React.FC = () => (
-  <section className="home">
-    <h1>Welcome to AI SaaS</h1>
-    <p>Your AI-powered platform for smarter business.</p>
-    <a href="https://github.com/nikidav9/ai-saas" target="_blank" rel="noopener noreferrer" className="repo-link">
-      View Repository
-    </a>
-  </section>
-);
-
-export default HomePage;
+aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCmZ1bmN0aW9uIEhvbWVQYWdlKCkgewogIHJldHVybiAoCiAgPHRkIGlkPSdob21lJz4KICAgIDxoMSBjbGFzcz0icHJldmlldy10aXRsZSI+V2VsY29tZSB0byBBSS1TYWFzPC9oMT4KICAgIDxwIGNsYXNzPSJwcmV2aWV3LWRlc2MiPlNpbXBsZSBwYWdlIHdpdGggZ2VuZXJhdGl2ZSBpbml0aWF0aW9uIGFuZCBjb21tdW5pY2F0aW9uLiBQbHVzIGxpbmsgdG8gdGhlIHJlcG9zaXRvcnk6PC9wPgogICAgPHJhdyBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vbmlyaWRhdjkvYWktc2FhcyIgdGFyZ2V0PSJfYmxhbmsiPlJlYWQgcmVwbzxzcD4KICApOwogIDwvdGQ+KTsKfQo=
