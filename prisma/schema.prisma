@@ -1,0 +1,48 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id            String        @id @default(cuid())
+  email         String        @unique
+  passwordHash  String
+  createdAt     DateTime      @default(now())
+  subscriptions Subscription[]
+  agentTasks    AgentTask[]
+  crmRecords    CRM[]
+}
+
+model Subscription {
+  id         String   @id @default(cuid())
+  user       User     @relation(fields: [userId], references: [id])
+  userId     String
+  stripeId   String   @unique
+  status     String
+  startedAt  DateTime @default(now())
+  endsAt     DateTime?
+}
+
+model AgentTask {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  type        String
+  payload     Json
+  status      String   @default("pending")
+  createdAt   DateTime @default(now())
+  completedAt DateTime?
+}
+
+model CRM {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  leadSource  String?
+  notes       String?
+  createdAt   DateTime @default(now())
+}
